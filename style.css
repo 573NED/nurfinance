@@ -21,6 +21,7 @@ header {
     background-color: #F0F4F8;
     display: flex;
     flex-wrap: wrap; 
+    top: 0;
 }
 
 .container {
@@ -74,10 +75,9 @@ section nav {
 
 .main_section {
     display: flex;
-    flex-direction: row;
-    height: 100%;
     max-width: 1245px;
     margin: 0 auto;
+    height: 500px;
 }
 
 .main_section span {
@@ -87,6 +87,7 @@ section nav {
 
 .main_section img {
     height: 450px;
+    padding-top: 50px;
 }
 
 .wrapper {
@@ -114,6 +115,61 @@ section nav {
     background-color: #fff;  
     border-radius: 20px 0;
     padding: 0 30px;
+}
+
+#recommended {
+    flex-flow: row wrap;
+}
+
+#recommended a {
+    padding: 14px 0;
+}
+
+#recommended h6 {
+    font-size: 14px;
+    color: #79A6C3;
+}
+
+#recommended h4 {
+    font-size: 24px;
+}
+
+.card__large {
+    margin: 7.5px;
+    border-radius: 6px;
+    background-color: #F0F4F8;
+    padding-left: 40px;
+    max-height: 360px;
+    display: flex;
+    flex-basis: 66%;
+}
+
+.card__large img {
+    margin-top: 45px;
+}
+
+.card__small {
+    display: flex;
+    border-radius: 6px;
+    margin: 7.5px;
+    background-color: #F0F4F8;
+    padding-left: 40px;
+    max-height: 360px;
+    flex-basis: 32px; 
+
+}
+
+.card__large p {
+    width: 354px;
+    font-size: 16px;
+    color: #6E9BB8;
+}
+
+.card__small p {
+    max-width: 208px;
+    font-size: 14px;
+    color: #6E9BB8;
+
 }
 
 nav .button__blue a {
@@ -150,6 +206,7 @@ div .button__blue {
 h3 {
     font-size: 34px;
     font-weight: 300;
+    width: 100%;
 }
 
 footer {
